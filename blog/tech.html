@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+	<title>Christopher K. Lee</title>
+</head>
+<body>
+	<ul>
+		<li>Home</li>
+		<li>Archived</li>
+		<li>About Me</li>
+		<li>Contact</li>
+	</ul>
+	<img src="#logo">
+	<h1>Phase-0 Blog</h1>
+	<h2>SQL Query Optimization</h2>
+	<p>SQL query optimization, sometimes referred to as SQL tuning, is the practice of writing queries in a way that has the best performance. When talking about performance, it is usually being said in reference to query times. Although, its possible to get the same results using various query commands, some will run significantly faster than others. One of the most important ways to optimize SQL queries is to create a proper index for your database. Indexes are a unique structure within your database that maps all the indexed tables of your database. Although they are redunandant in nature, they are vital to increasing performance in query searches. Another simple step to optimizing searches is to only pull the data that is necessary. In other woords, avoid using the * (all symbol) and only select the necessary columns. Another easy trick is to avoid using functions on the left side of an operator. Using one will usually result in the query performing a full table scan, opposed to locking into the needed column. Similarly, the use of correlated subqueries can be inefficient. Correlated subqueries are dependant on the outer query and tus need to run once for every row of the outer query. A more apporopriate solution to this would be the use of a join. Lastly, when utilizing the LIKE pattern, avoid using the % (wildcard) symbol at the beginning. Often it can simply be rewritten with the wildcard symbol (%) only used at the end. Ultimately, it depends on the search parameters and how essential it is for a beginning %. All in all, performance has several factors and cannot always be attributed to one thing. The best way to plan ahead is to read the execution plan that was produced by the database optimizer. Each database is unique and thus optimizing searches for each database is unique.</p>
+	<p>comment box</p>
+	<ul>
+		<li><a href="blog-template.html"><img src="imgs/fb.png"></a></li>
+		<li>Home</li>
+		<li>Archived</li>
+		<li>About Me</li>
+		<li>Contact</li>
+		<li>Credits</li>
+		<li><a href="#"><img src="#fb"></a></li>
+		<li><a href="#"><img src="#twtr"></a></li>
+		<li><a href="#"><img src="#instagram"></a></li>
+	</ul>
+</body>
+</html>
