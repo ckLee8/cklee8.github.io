@@ -1,5 +1,9 @@
 body {
-	padding-top: 70px;
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
 }
 
 .navbar .navbar-nav {
@@ -10,4 +14,15 @@ body {
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.carousel-inner .item {
+	width: auto;
+	height: 600px;
+}
+
+.carousel-innter .item img {
+	max-height: 100%;
+	height: auto;
+	width: auto;
 }
