@@ -16,13 +16,28 @@ h1 {
   text-align: center;
 }
 
-.carousel-inner .item {
-	width: auto;
+.carousel-inner .item img {
 	height: 600px;
+	width: fill;
 }
 
-.carousel-innter .item img {
-	max-height: 100%;
-	height: auto;
-	width: auto;
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h1 {
+	font-size: 4.5em;
+}
+
+.header-text h2 {
+	font-size: 3em;
+}
+
+.header-text h3 {
+	font-size: 2em;
 }
