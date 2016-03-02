@@ -6,6 +6,10 @@ h1 {
 	text-align: center;
 }
 
+p {
+  font-size: 1.2em
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -18,7 +22,6 @@ h1 {
 
 .carousel-inner .item img {
 	height: 600px;
-	width: fill;
 }
 
 .header-text {
@@ -40,4 +43,32 @@ h1 {
 
 .header-text h3 {
 	font-size: 2em;
+}
+
+.page-about {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.page-skills {
+  padding-bottom: 50px;
+}
+
+.section-header {
+  padding-bottom: 50px;
+}
+
+.section-title {
+  font-size: 3em;
+}
+
+.profile-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.profile-pic {
+  margin-top: 30px;
 }
