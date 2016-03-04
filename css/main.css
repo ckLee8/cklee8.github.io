@@ -58,8 +58,19 @@ p {
 }
 
 .page-skills {
-  padding-bottom: 50px;
+  margin-bottom: 75px;
   padding-top: 50px;
+}
+
+.page-projects {
+  background-color: #F0F0F0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.page-contact {
+  padding-top: 50px;
+  margin-bottom: 100px;
 }
 
 .section-header {
@@ -68,6 +79,8 @@ p {
 
 .section-title {
   font-size: 3em;
+  text-decoration: underline;
+  letter-spacing: 5px;
 }
 
 .profile-desc {
@@ -96,4 +109,32 @@ p {
 
 .panel-body {
   font-size: 1.2em;
+}
+
+.social a {
+  display: inline;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.email {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.email div {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.email-text {
+  font-size: 2em;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: #F0F0F0;
 }
