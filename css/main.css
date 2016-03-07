@@ -138,3 +138,18 @@ p {
   padding-bottom: 60px;
   background-color: #F0F0F0;
 }
+
+.proj-1-pic {
+  margin-left: 0px;
+}
+
+.proj-1-desc {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.Hover img {
+  border: 1px solid red;
+}
