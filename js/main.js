@@ -6,4 +6,8 @@ $(document).ready(function () {
     	event.preventDefault();
     	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   	});
+  	$(".proj-1-pic, .proj-2-pic").hover(
+        function() { $(this).addClass("Hover"); },
+        function() { $(this).removeClass("Hover"); }
+    );
 });
