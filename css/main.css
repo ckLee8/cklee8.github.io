@@ -1,5 +1,6 @@
 body {
 	padding-top: 50px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 }
 
 h1 {
@@ -152,4 +153,11 @@ p {
 
 .Hover img {
   border: 1px solid red;
+}
+
+.priv {
+  position: relative;
+  display: inline;
+  font-size: 1.5em;
+  bottom: 5px;
 }
